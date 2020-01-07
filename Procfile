@@ -1,1 +1,1 @@
-worker: node bot.js The Grazzy Bot
+worker: node bot.js Crow gang
