@@ -1,32 +1,13 @@
 {
-  "name": "Sugu bot",
-  "version": "0.1.0",
-  "description": "A simple discord bot",
-  "main": "MusicBot.js",
+  "name": "DefinitelyNotBot",
+  "description": "A Discord bot coded in Discord.JS, hosted using Heroku.",
+  "version": "1.0.0",
+  "main": "bot.js",
   "scripts": {
-    "test": ""
+    "start": "node bot.js"
   },
-  "keywords": [
-    "discord",
-    "bot",
-    "discordbot"
-  ],
-  "author": "iCrawl",
-  "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.1.0",
-    "opusscript": "0.0.3",
-    "simple-youtube-api": "^3.0.0",
-    "ytdl-core": "^0.16.0"
-  },
-  "devDependencies": {
-    "eslint": "^4.0.0",
-    "eslint-config-aqua": "^1.0.0"
-  },
-  "eslintConfig": {
-    "extends": "aqua",
-    "rules": {
-      "no-console": 0
-    }
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
