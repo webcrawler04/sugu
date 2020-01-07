@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'wintie woo') {
-    	message.channel.send('joshy woo');
+    	message.reply('joshy woo');
   	}
 });
 
