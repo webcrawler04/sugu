@@ -33,7 +33,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!commands') {
-    	message.reply('1. wintie woo , 2. joshy woo , 3. grayson , 4.fake josh');
+    	message.reply('1. wintie woo , 2. webby woo , 3. grayson , 4.fake josh');
   	}
 });
 
