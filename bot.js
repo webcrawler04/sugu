@@ -5,10 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-const prefix = "!";
-client.on("message", (message) => {
-  if (!message.content.startsWith(prefix)) return;
-   
 client.on('message', message => {
     if (message.content === 'wintie woo') {
     	message.reply('joshy woo');
