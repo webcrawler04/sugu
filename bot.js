@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!wintie woo') {
+    if (message.content === '!winty woo') {
     	message.reply('webby woo');
   	}
 });
@@ -14,7 +14,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!webby woo') {
-    	message.reply('wintie woo');
+    	message.reply('winty woo');
   	}
 });
 
@@ -33,7 +33,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!commands') {
-    	message.reply('1. !wintie woo , 2. !webby woo , 3. !grayson , 4. !fake josh');
+    	message.reply('1. !winty woo , 2. !webby woo , 3. !grayson , 4. !fake josh');
   	}
 });
 
