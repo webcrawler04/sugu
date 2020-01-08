@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
@@ -6,20 +6,20 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!wintie woo') {
+    if (message.content === 'Swintiewoo') {
     	message.reply('joshy woo');
   	}
 });
 
 
 client.on('message', message => {
-    if (message.content === '!joshy woo') {
+    if (message.content === 'Sjoshywoo') {
     	message.reply('wintie woo');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === '!fake josh') {
+    if (message.content === 'Sfake josh') {
     	message.reply('Fake josh is just a fake josh there is no point in him even being here why he is here I dont know');
   	}
 });
@@ -34,8 +34,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '!commands') {
-    	message.reply('1. wintie woo , 2. joshy woo,3. grayson,4. fake josh');
+    if (message.content === 'Scommands') {
+    	message.reply('1. wintiewoo , 2. joshywoo,3. grayson,4. fakejosh');
   	}
 });
 
