@@ -5,12 +5,10 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
-  	}
-});
-
+const prefix = "!";
+client.on("message", (message) => {
+  if (!message.content.startsWith(prefix)) return;
+   
 client.on('message', message => {
     if (message.content === 'wintie woo') {
     	message.reply('joshy woo');
