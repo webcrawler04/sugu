@@ -7,13 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!wintie woo') {
-    	message.reply('joshy woo');
+    	message.reply('webby woo');
   	}
 });
 
 
 client.on('message', message => {
-    if (message.content === '!joshy woo') {
+    if (message.content === '!webby woo') {
     	message.reply('wintie woo');
   	}
 });
