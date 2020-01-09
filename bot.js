@@ -5,29 +5,6 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-  client.on('message', message => {
-   if (message.content === 'Yeet') {
-    message.channel.send('YEET!');
-  } catch (err) {
-    message.channel.send('Their was an error!\n' + err).catch();
-  }
-};
-
-exports.conf = {
-  enabled: true,
-  aliases: [],
-  guildOnly: false,
-  permLevel: 'User'
-};
-
-exports.help = {
-  name: 'yeet',
-  category: 'Fun',
-  description: 'Returns "YEET"',
-  usage: 'yeet'
-};
-
-
 client.on('message', message => {
     if (message.content === '!winty woo') {
     	message.reply('webby woo');
@@ -50,7 +27,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '!grayson') { 
-    	message.reply('A rare boy, with the ability to love with all his heart. He is sensitive, and he will give everything he has to the one he loves. He can be moody at times, and he doesnt like to open up unless he feels absolutely comfortable. He is citrus-scented. Can get frustrated easily. He is caring, loving, and is in tune with how others are feeling. Graysons usually like to help others, and sometimes Graysons give more of themselves than they should.');
+    	message.reply('https://cdn.discordapp.com/attachments/660518896071344129/662118682360676362/JPEG_20200101_003529.jpg');
   	}
 });
 
