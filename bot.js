@@ -5,9 +5,9 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-exports.run = async (client, message, args, level) => {
-  try {
-    message.channel.send('YEET');
+  client.on('message', message => {
+   if (message.content === 'Yeet') {
+    message.channel.send('YEET!');
   } catch (err) {
     message.channel.send('Their was an error!\n' + err).catch();
   }
