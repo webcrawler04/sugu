@@ -26,7 +26,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if (message.content === 'hi') {
-		return message.reply('Hello!');
+		message.reply('Hello!');
 	  }
   });
 
@@ -39,7 +39,7 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if (message.content === 'sa') {
-		return message.reply('Aleyküm selam.');
+		 message.reply('Aleyküm selam.');
 	  }
   			});
   		client.on('message', function (message) {
@@ -77,13 +77,13 @@ client.on('message', message => {
 
 client.on('message', message => {
 	if (message.content.split('').join('') === '!roll') {
-		return message.reply(`U got a ${Math.floor((Math.random() * 6) + 1)}`);
+		 message.reply(`U got a ${Math.floor((Math.random() * 6) + 1)}`);
 	  }
 });
 
 client.on('message', message => {
 	if (message.content.startsWith('!')) 		{
-		return message.reply('Unknown command!');
+		 message.reply('Unknown command!');
           }
 });
 
@@ -103,14 +103,14 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (msg.content === '!about') {
-        return message.reply('This is the best bot on planet. Pls upvote');
+         message.reply('This is the best bot on planet. Pls upvote');
     }
 });
 
 client.on('message', message => {
 	const randomNumber = Math.random();
     if (randomNumber < 0.05) {
-		return message.reply(`LEVEL UP! YOU ARE NOW LEVEL **${Math.floor((Math.random() * 21) + 2)}**`);
+		 message.reply(`LEVEL UP! YOU ARE NOW LEVEL **${Math.floor((Math.random() * 21) + 2)}**`);
     }
 });
 
@@ -118,22 +118,22 @@ client.on('message', message => {
 	if (message.content.startsWith('!eval ')) {
 		const script = message.content.substring('!eval '.length);
 	const result = eval(script);
-			return message.reply(result.toString());
+			 message.reply(result.toString());
 	}
 });
 
 client.on('message', message => {
 	if (message.content.startsWith('!say ')) {
-		return message.reply(message.content.substring('!say '.length));
+		 message.reply(message.content.substring('!say '.length));
 	}
 })
 
 client.on('message', message => {
 		if (message.content.startsWith('!randomcat') && true){
  const randomcat = 'https://i.imgur.com/jjqKt7t.gifv';
-   return message.reply(`here is ur random cat ${randomcat}`) }
-	return randomcat
- return 'hi'
+    message.reply(`here is ur random cat ${randomcat}`) }
+	 randomcat
+  'hi'
 })
 
 client.on("message", async (message) => (messag) => (messa) => (mess) => (mes) => (me) => (m) => (message) => {
@@ -144,7 +144,7 @@ client.on("message", async (message) => (messag) => (messa) => (mess) => (mes) =
 
 client.on('message', message => {
 	if (message.content.includes('fuck')) {
-		return message.reply('nO swearing!!111!1')
+		 message.reply('nO swearing!!111!1')
 	}
 })
 
