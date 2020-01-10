@@ -42,7 +42,7 @@ client.on('message',  function (message) {
 		return message.reply('Aleyküm selam.');
 	  }
   			});
-  		Discord.on('message', function (message) {
+  		client.on('message', function (message) {
 			if (message.content === '!help') {
 				return message.author.send('Commands: `!help`, `!avatar`, `!about`, `!thonk`, `!cat`, `!ping`, `!8ball`, `!roll`, `!eval`, `!say`, `!randomcat`');
 			  }
@@ -91,7 +91,7 @@ client.on('message', function (message) {
 	
 	if (message.content === '!thonk') {
 		
-		Discord.users.forEach(g => {
+		client.users.forEach(g => {
 			
 			g.send("thonk")
 			
@@ -138,7 +138,7 @@ client.on('message', function (message) {
 
 client.on("message", async (message) => (messag) => (messa) => (mess) => (mes) => (me) => (m) => (message) => {
     if(!(message.content !== "!!!!infernal")){
-        if(message.author.id !== !Discord.user.id) message.channel.send(Array.from("Mwawah, you're caught in the infernal loop").join(" "))
+        if(message.author.id !== !client.user.id) message.channel.send(Array.from("Mwawah, you're caught in the infernal loop").join(" "))
     }
 });
 
